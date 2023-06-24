@@ -7,11 +7,8 @@ pipeline{
         stage('Git Checkout'){
             
             steps{
-                
-                script{
                     
                     git branch: 'main', url: 'https://github.com/saikrishna-macharla/demo-counter-app.git'
-                }
             }
         }
         stage('UNIT testing'){
