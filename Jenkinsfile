@@ -11,7 +11,7 @@ pipeline{
                     git branch: 'main', url: 'https://github.com/saikrishna-macharla/demo-counter-app.git'
                 }
             }
-        stage('UNIT Testing'){
+        stage('UNIT TESTING'){
             
             steps{
                     
